@@ -1,11 +1,7 @@
 # Detecting and Blocking Vulnerable Containers in K8s
 
-## Prerequirements:
-
-Installed minikube or other K8s local environment
-
-- [Installing minikube](./01-minikube.md)
-- [Installing helm](./02-helm.md)
-- [Deploying Anchore-engine](./03-anchore-engine.md)
-- [Deployin ValidatingWebhook](./04-validating-webhook.md)
-- [Testing it](./05-test.md)
+- [01 Installing minikube](./01-minikube.md)
+- [02 Installing helm](./02-helm.md)
+- [03 Deploying Anchore-engine](./03-anchore-engine.md)
+- [04 Deployin ValidatingWebhook](./04-validating-webhook.md)
+- [05 Testing it](./05-test.md)
