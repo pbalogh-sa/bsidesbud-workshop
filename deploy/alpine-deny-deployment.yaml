@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alpine-deny
+  labels:
+    app: alpine-deny
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alpine-deny
+  template:
+    metadata:
+      labels:
+        app: alpine-deny
+    spec:
+      containers:
+      - name: alpine-deny
+        image: alpine:3.9
+        command: ["sleep", "3600"]

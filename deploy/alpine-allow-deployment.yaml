@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alpine-allow
+  labels:
+    app: alpine-allow
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alpine-allow
+  template:
+    metadata:
+      labels:
+        app: alpine-allow
+    spec:
+      containers:
+      - name: alpine-allow
+        image: alpine:3.9
+        command: ["sleep", "3600"]
