@@ -44,3 +44,5 @@ minikube start --vm-driver hyperkit --cpus 2 --memory 4096
 ```shell
 minikube start --cpus 2 --memory 4096
 ```
+
+## [02 Installing helm](./02-helm.md)

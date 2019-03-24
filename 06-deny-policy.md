@@ -125,3 +125,5 @@ time="2019-03-24T16:30:55Z" level=info msg="Anchore Response Body" response="[\n
 time="2019-03-24T16:30:55Z" level=warning msg="Image failed policy check" image="alpine:3.9"
 ...
 ```
+
+## [07 Whitelisting](./07-whitelist.md)

@@ -118,3 +118,5 @@ time="2019-03-24T15:33:24Z" level=info msg="Anchore Response Body" response="[\n
 time="2019-03-24T15:33:24Z" level=warning msg="Image passed policy check" image="alpine:3.9"
 ...
 ```
+
+## [06 Testing deny policy](./06-deny-policy.md)

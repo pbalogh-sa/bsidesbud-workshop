@@ -1,6 +1,11 @@
 # Installing ValidatingWebhook
 
 ```shell
+helm repo add banzaicloud-stable http://kubernetes-charts.banzaicloud.com/branch/master
+helm repo update
+```
+
+```shell
 kubectl create ns validator
 helm install --name validator --namespace validator \
     --set externalAnchore.anchoreHost="http://anchore-anchore-engine-api.anchore.svc.cluster.local:8228" \
@@ -90,3 +95,5 @@ metadata:
   resourceVersion: ""
   selfLink: ""
 ```
+
+## [05 Testing allow policy](./05-allow-policy.md)
