@@ -45,4 +45,10 @@ minikube start --vm-driver hyperkit --cpus 2 --memory 4096
 minikube start --cpus 2 --memory 4096
 ```
 
+## set docker0 link
+```shell
+minikube ssh
+sudo ip link set dev docker0 promisc on
+```
+
 ## [02 Installing helm](./02-helm.md)
