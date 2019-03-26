@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
       - name: alpine-deny
-        image: alpine:3.9
+        image: alpine:3.8
         command: ["sleep", "3600"]
