@@ -20,7 +20,7 @@ kubectl get audits -o wide
 ```shell
 NAME                                 RELEASENAME                     IMAGE    RESULT                                    ACTION
 replicaset-alpine-allow-5c56d9bc7c   alpine-allow-5c56d9bc7c-t9pnp   alpine   [Image passed policy check: alpine:3.9]   allowed
-replicaset-alpine-deny-7c685675f7    alpine-deny-7c685675f7-flhqc    alpine   [Image failed policy check: alpine:3.9]   reject
+replicaset-alpine-deny-7c685675f7    alpine-deny-7c685675f7-flhqc    alpine   [Image failed policy check: alpine:3.8]   reject
 ```
 
 ## Whitelistitems

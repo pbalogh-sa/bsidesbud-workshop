@@ -111,6 +111,6 @@ v1beta1.admissionregistration.k8s.io   Local                                    
 
 [related lines in anchore-image-validator](https://github.com/banzaicloud/anchore-image-validator/blob/bf0238de10f012df39fbc887da1ebe5214c409d1/cmd/main.go#L75)
 
-[related lines in image-policy-validator chart](https://github.com/banzaicloud/banzai-charts/blob/4ee1b838b965d16740da79efdb9d1c0028452734/anchore-policy-validator/values.yaml#L3)
+[related lines in anchore-policy-validator chart](https://github.com/banzaicloud/banzai-charts/blob/4ee1b838b965d16740da79efdb9d1c0028452734/anchore-policy-validator/values.yaml#L3)
 
 ## [05 Testing allow policy](./05-allow-policy.md)

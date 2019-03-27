@@ -94,8 +94,9 @@ curl -X GET -u "admin":"foobar" http://localhost:8228/v1/policies
     "policybundlemeta": {},
     "userId": "admin"
   }
+]
 ```
-### Checking feeds popolation
+### Checking feeds population
 ```shell
 curl -X GET -u "admin":"foobar" http://localhost:8228/v1/system/feeds
 ```

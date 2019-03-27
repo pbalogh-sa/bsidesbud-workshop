@@ -51,4 +51,6 @@ minikube ssh
 sudo ip link set dev docker0 promisc on
 ```
 
+### [Try the Banzaicloud PKE](https://github.com/banzaicloud/pke)
+
 ## [02 Installing helm](./02-helm.md)
