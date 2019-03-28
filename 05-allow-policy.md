@@ -89,6 +89,11 @@ curl -X GET -u "admin":"foobar" "http://localhost:8228/v1/images/sha256:d05ecd45
 
 ## Starting a new pod in our K8s cluster
 ```shell
+git clone https://github.com/pbalogh-sa/bsidesbud-workshop.git
+cd bsidesbud-workshop
+```
+
+```shell
 kubectl apply -f deploy/alpine-allow-deployment.yaml
 ```
 ```shell
